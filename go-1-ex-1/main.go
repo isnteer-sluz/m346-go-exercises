@@ -10,7 +10,7 @@ var monthOfBirth int = 12
 var yearOfBirth int = 2007
 var numberOfSiblings int = 0
 var heightInMeters float64 = 1.90
-var zodiacSign rune = 'S'
+var zodiacSign rune = '\u2650'
 
 func main() {
 	// TODO: Declare and initialize the variables being used in the output!
