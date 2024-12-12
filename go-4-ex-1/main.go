@@ -17,5 +17,8 @@ func computeGrade(gotPoints int, maxPoints int) float64 {
 }
 
 func main() {
-	fmt.Println(computeGrade(0, 100))
+	fmt.Println(computeGrade(0, 100)) // 1
+	fmt.Println(computeGrade(50, 100)) // 3.5
+	fmt.Println(computeGrade(100, 100)) // 6
+	fmt.Println(computeGrade(150, 100)) // 6
 }
